@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineers | Point</title>
+    <link rel="stylesheet" href="si_units.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Play&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="phone.css">
+
+</head>
+
+<body>
+    <navbar id="navbar">
+        <div id="Logo_hamburger">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        </div>
+        <div id="nonnavbar">
+            <img src="logo.png" alt="engineerspoint.com">
+            <ul>
+                <li><a href="/MyHtml/home.html">Home</a></li>
+                <li><a href="/MyHtml/extras.html">Calculate</a></li>
+                <li><a href="/MyHtml/formulas.html">Formulas</a></li>
+                <li><a href="/MyHtml/Quesans.html">Ques&Ans</a></li>
+            </ul>
+        </div>
+        <div id="hamburger">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <div>
+                        <div class="content">
+                            <li><a href="">Content</a></li>
+                            <li><a href="/MyHtml/mechanical_home.html">Mechanical</a></li>
+                            <li><a href="/MyHtml/electrical_home.html">Electrical</a></li>
+                            <li><a href="/MyHtml/pneumatics_home.html">Pneumatics</a></li>
+                            <li><a href="/MyHtml/electropneumatic_hompage.html">Electropneumatics</a></li>
+                            <li><a href="/MyHtml/hydraulics_homepage.html">Hydraulics</a></li>
+                        </div>
+                        <div class="content">
+                            <li><a href="/MyHtml/extras.html">Unit Conversions</a></li>
+                            <li><a href="/MyHtml/extras.html">Area </a></li>
+                            <li><a href="/MyHtml/extras.html">Volume</a></li>
+                            <li><a href="/MyHtml/extras.html">Mass</a></li>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    function openNav() {
+                        document.getElementById("myNav").style.width = "100%";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("myNav").style.width = "0%";
+                    }
+                </script>
+            </div>
+    </navbar>
+    <div id="home">
+        <div id="content">
+            <h3>Content</h3>
+            <div class="content">
+                <li><a href="/MyHtml/mechanical_home.html">Mechanical</a></li>
+                <li><a href="/MyHtml/electrical_home.html">Electrical</a></li>
+                <li><a href="">Pneumatics</a></li>
+                <li><a href="">Electropneumatics</a></li>
+                <li><a href="">Hydraulics</a></li>
+            </div>
+            <div class="content">
+                <li><a href="/MyHtml/si_units.html">SI Unit </a></li>
+                <li><a href="/MyHtml/extras.html">Area</a></li>
+                <!-- <li><a href="">Basic Trignometry</a></li> -->
+                <li><a href="/MyHtml/extras.html">Volume</a></li>
+                <li><a href="/MyHtml/extras.html">Mass</a></li>
+                <li><a href="/MyHtml/formulas.html">Formulas</a></li>
+            </div>
+        </div>
+        <div id="hello">
+            <h1 class="hprimary">Welcome Engineers</h1>
+            <div id="intro">
+                <p>Hello all !!! <br>
+                    I warmly welcome you all to engineerspoint. Many a times you need to search some topic of same field
+                    in different tabs. It was a very tidious I felt. So I came up with a solution. Engineers Point is
+                    the web page you want. Here you will get
+                    almost solutions to your problem. Here I welcome all my engineering friend to my webpage where you
+                    can find solutions to your <a href="">Mechanical</a>, <a href="">Electrical</a>, <a
+                        href="">Pneumatics</a>, <a href="">Hydraulics</a> and other field's solution. I hope
+                    you will take most out of this webpage and find solutions to your problems. Just take a overview of
+                    the topics you are instrested in.
+                </p>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="table">
+            <h2>Base Units</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Base Quantity</th>
+                        <th>Base Units</th>
+                        <th>Unit Symbol</th>
+                        <!-- <th>Description</th> -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lenght</td>
+                        <td>meter</td>
+                        <td>m</td>
+                    </tr>
+                    <tr>
+                        <td>Mass</td>
+                        <td>kilogram</td>
+                        <td>kg</td>
+                    </tr>
+                    <tr>
+                        <td>Time</td>
+                        <td>second</td>
+                        <td>s</td>
+                    </tr>
+                    <tr>
+                        <td>Electric Current</td>
+                        <td>ampere</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>Thermodynamic temperature</td>
+                        <td>kelvin</td>
+                        <td>K</td>
+                    </tr>
+                    <tr>
+                        <td>Amount of Substance</td>
+                        <td>mole</td>
+                        <td>mol</td>
+                    </tr>
+                    <tr>
+                        <td>Luminous Intensity</td>
+                        <td>candela</td>
+                        <td>cd</td>
+                    </tr>
+            </table>
+        </div>
+        <div class="table">
+            <h4>Quantities and their units</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Quantity</th>
+                        <th>Symbol</th>
+                        <th>Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Length</td>
+                        <td>m</td>
+                        <td>meter</td>
+                    </tr>
+                    <tr>
+                        <td>Area</td>
+                        <td>m²</td>
+                        <td>square meter</td>
+                    </tr>
+                    <tr>
+                        <td>Volume</td>
+                        <td>m³</td>
+                        <td>cubic meter</td>
+                    </tr>
+                    <tr>
+                        <td>Plane Angle</td>
+                        <td>rad, °, ', "</td>
+                        <td>radian, degree, minutes, seconds</td>
+                    </tr>
+                    <tr>
+                        <td>Solid Angle</td>
+                        <td>steradian</td>
+                        <td>sr</td>
+                    </tr>
+                    <tr>
+                        <td>Force</td>
+                        <td>F</td>
+                        <td>newton</td>
+                    </tr>
+                    <tr>
+                        <td>Pressure</td>
+                        <td>Pa</td>
+                        <td>pascal</td>
+                    </tr>
+                    <tr>
+                        <td>Energy</td>
+                        <td>J</td>
+                        <td>joule</td>
+                    </tr>
+                    <tr>
+                        <td>Power</td>
+                        <td>W</td>
+                        <td>watt</td>
+                    </tr>
+                    <tr>
+                        <td>Frequency</td>
+                        <td>Hz</td>
+                        <td>Hertz</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table">
+            <h4>Electricity and magnetism</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Quantity</th>
+                        <th>Symbol</th>
+                        <th>Unit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Current</td>
+                        <td>A</td>
+                        <td>ampere</td>
+                    </tr>
+                    <tr>
+                        <td>Electromotive Force</td>
+                        <td>V</td>
+                        <td>volt</td>
+                    </tr>
+                    <tr>
+                        <td>Electrical Resistance</td>
+                        <td>Ω</td>
+                        <td>ohm</td>
+                    </tr>
+                    <tr>
+                        <td>Electrical Conductance</td>
+                        <td>S</td>
+                        <td>siemens</td>
+                    </tr>
+                    <tr>
+                        <td>Specific Resistance</td>
+                        <td>Ω.m</td>
+                        <td>ohm x meter</td>
+                    </tr>
+                    <tr>
+                        <td>Conductivity</td>
+                        <td>S/m</td>
+                        <td>siemens per meter</td>
+                    </tr>
+                    <tr>
+                        <td>Electric Field strength</td>
+                        <td>V/m</td>
+                        <td>volts per meter</td>
+                    </tr>
+                    <tr>
+                        <td>Electric charge</td>
+                        <td>C</td>
+                        <td>coulomb</td>
+                    </tr>
+                    <tr>
+                        <td>Electric cpacitance</td>
+                        <td>F</td>
+                        <td>farad</td>
+                    </tr>
+                    <tr>
+                        <td>Inductance</td>
+                        <td>H</td>
+                        <td>Henry</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+
+</html>
